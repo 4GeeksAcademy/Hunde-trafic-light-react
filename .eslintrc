@@ -13,21 +13,17 @@
     "es6": true
   },
   "rules": {
-    "strict":0,
-    "no-unused-vars": 0,
-    "no-mixed-spaces-and-tabs": 0,
-    "no-debugger": 0,
-    "no-console": 1,
+    "strict": "off",
+    "no-unused-vars": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "no-debugger": "off",
+    "no-console": "warn",
     "semi": ["error", "always"],
-    "allowImportExportEverywhere": 0,
-    "comma-dangle": [1, { //when to use the last comma
-        "arrays": "never",
-        "objects": "never",
-        "imports": "never",
-        "exports": "never",
-        "functions": "ignore",
-    }],
-    "react/prop-types": [2]
+    "comma-dangle": ["error", "never"],
+    "react/prop-types": "error"
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"]
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
 }

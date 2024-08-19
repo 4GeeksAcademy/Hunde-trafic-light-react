@@ -1,0 +1,2 @@
+.traffic-light{align-items:center;background-color:#000;border-radius:10px;display:flex;flex-direction:column;height:250px;padding:20px;width:100px}.light{background-color:gray;border-radius:50%;height:80px;margin:10px 0;transition:background-color .3s,box-shadow .3s;width:80px}.selected{border:2px solid #fff}.glowing{box-shadow:0 0 10px 5px #ffffffb3}
+/*# sourceMappingURL=main.625d5f6f.css.map*/
